@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #7F7DFF;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 700px;
+    padding: 40px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.title-line {
+    margin-top: .25rem;
+    height: 3px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #2A26FF;
+}
+
+.qoute {
+    margin-top: 4rem;
+    font-size: 24px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+
+.qoute::before, .qoute::after {
+    content: '"';
+}
+
+.author-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+    width: max-content;
+    position: absolute;
+    bottom: 10rem;
+    right: 4rem;
+}
+
+.author-line {
+    width: 40px;
+    height: 2px;
+    background-color: #2A26FF;
+    border-radius: 50px;
+}
+
+.buttons {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon {
+    width: auto;
+    height: 18px;
+}
+
+.button {
+    padding: 1rem 1.75rem;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #1DA1F2;
+}
+
+.button-one {
+    background-color: #1DA1F2;
+    color: white;
+    font-weight: 400;
+}
+
+.button-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .25rem;
+    background-color: white;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-color: white;
+    }
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100vh;
+        width: 100vw;
+        border-radius: 0;
+        background: none;
+    }
+    .qoute {
+        height: 200px;
+    }
+    .author-content {
+        bottom: 12rem;
+        right: 3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .author-content {
+        bottom: 11rem;
+        right: 2rem;
+    }
+}
