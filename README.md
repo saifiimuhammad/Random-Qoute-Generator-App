@@ -31,7 +31,6 @@ This app uses the [Quotable API](https://quotable.io/) to retrieve random quotes
 
 ## Screenshot
 
-![screenshot](https://github.com/saifiimuhammad/Random-Qoute-Generator-App/assets/99310347/e4a918c2-cf1d-44e9-ab92-81bf0031273f)
 ![screencapture-127-0-0-1-5500-index-html-2023-10-08-22_56_03](https://github.com/saifiimuhammad/Random-Qoute-Generator-App/assets/99310347/6273373c-1f84-456d-a018-e295de8a3f22)
 
 ## Credits
