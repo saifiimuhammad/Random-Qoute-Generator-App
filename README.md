@@ -1,6 +1,7 @@
 # Random Quote Generator App
 
-![Random Quote Generator App Screenshot](screenshot.png)
+![screenshot](https://github.com/saifiimuhammad/Random-Qoute-Generator-App/assets/99310347/e4a918c2-cf1d-44e9-ab92-81bf0031273f)
+![screencapture-127-0-0-1-5500-index-html-2023-10-08-22_56_03](https://github.com/saifiimuhammad/Random-Qoute-Generator-App/assets/99310347/6273373c-1f84-456d-a018-e295de8a3f22)
 
 This is a simple web application that generates random quotes fetched from the [Quotable API](https://quotable.io/). It is built using HTML, CSS, and JavaScript, and it's designed to be responsive, so it can adapt to various screen sizes.
 
