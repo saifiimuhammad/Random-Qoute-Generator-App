@@ -36,7 +36,7 @@ This app uses the [Quotable API](https://quotable.io/) to retrieve random quotes
 
 ## Credits
 
-This project was created by [Your Name] and is provided under the [license](LICENSE.md).
+This project was created by Muhammad Saif and is provided under the License.md.
 
 ## License
 
@@ -44,4 +44,4 @@ This project is licensed under the [MIT License](LICENSE.md). Feel free to use, 
 
 ---
 
-Enjoy the app, and may the quotes inspire you! If you have any questions or suggestions, please feel free to [open an issue](https://github.com/yourusername/random-quote-generator-app/issues).
+Enjoy the app, and may the quotes inspire you! If you have any questions or suggestions, please feel free to [open an issue](https://github.com/saifiimuhammad/random-quote-generator-app/issues).
